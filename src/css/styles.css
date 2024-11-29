@@ -113,11 +113,13 @@ main {
     font-weight: bold;
 }
 .side-menu ul li a {
+    display: block;
     color: white;
     text-decoration: none;
     padding: 8px 15px;
     background: #a8d5ba;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 header nav.side-menu ul li a:hover {
     background:#ffc857
