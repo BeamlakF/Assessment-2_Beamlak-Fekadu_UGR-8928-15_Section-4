@@ -1,0 +1,214 @@
+body, html {
+    margin: 0;
+    padding: 100;
+    font-family: Arial, sans-serif; /* specify a specific font */
+    background-color: #f5f2eb;
+    color: #2f2f2f;
+     /* more space between lines of text, making it easier to read, especially in larger blocks of text */
+}
+header{
+    background: #2a5728;
+    color: #ffffff;
+    padding: 15px;
+    text-align:left;
+}
+#slogan{
+    font-family:cursive ;
+    font-style: italic;
+    font-size: 18px;
+    color: #ffc857;
+}
+#brandname {
+    font-size: 44px;
+    font-weight:bolder;
+    color: #ffc857;
+}
+.headercontainer ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    padding-top: 10px;
+}
+.headercontainer ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #a8d5ba;
+    border-radius: 5px;
+}
+
+header nav.headercontainer ul li a:hover {
+    background:#ffc857;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* divide the section eually to 3 */
+    grid-template-rows: repeat(2, auto); /* has 2 rows*/
+    gap: 20px;
+    padding: 20px;
+}
+.sec-content {
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.side-section {
+    grid-column: 3;
+    grid-row: 1 / span 2; /* the column's content occupies bith rows*/
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec-title {
+    color: #2f2f2f;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.sec-subtitle {
+    color: #2f2f2f;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.prod-image {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.sec-para {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.read-more a {
+    color: #8b5e3c;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+.side-title {
+    font-size: 1.6rem;
+    color: #2f2f2f;
+    margin-bottom: 15px;
+}
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.side-menu ul li {
+    margin-bottom: 10px;
+}
+.side-menu ul li a {
+    color: #2f2f2f;
+    font-weight: bold;
+}
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #a8d5ba;
+    border-radius: 5px;
+}
+header nav.side-menu ul li a:hover {
+    background:#ffc857
+}
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.foot-cont {
+    background-color: #2a5728;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex; /* to sit the contents side by side*/
+}
+.foot-gallery {
+    justify-content: center;
+    flex-wrap: wrap; /*the pics inserted will flow into multiple lines as needed.*/
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-right: 200px; 
+}
+.foot-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+    padding: 5px;
+    max-width: 150px;
+    border-radius: 8px;
+    border: 2px solid #2a5728;
+    object-fit: cover;
+}
+.about-footer{
+    display: flex;
+    align-items: flex-start;
+}
+.about-footer img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.foot-para{
+    text-align: justify;
+}
+
+.foot-about, .foot-contact {
+    background-color: #2a5720;
+    padding: 20px;
+    border-left: 5px solid var #8b5e3c;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.foot-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffc857;
+}
+.foot-parag, .foot-para {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.foot-bottom {
+    background-color: #2a5720;
+    padding: 10px 0;
+    margin-top: 2px;
+}
+.foot-last-para {
+    font-size: 0.9rem;
+    color: #ffc857;
+}
+.foot-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.foot-nav ul li {
+    margin: 0 15px;
+}
+.foot-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #a8d5ba;
+    border-radius: 5px;
+}
+.foot-nav ul li a:hover {
+    background-color: #ffc857;
+}
+
